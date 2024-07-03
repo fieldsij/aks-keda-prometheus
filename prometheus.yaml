@@ -49,7 +49,7 @@ data:
           regex: go-prom-app-service
           action: keep
 ---
-apiVersion: extensions/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: prometheus-deployment
